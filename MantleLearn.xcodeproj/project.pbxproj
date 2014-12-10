@@ -10,10 +10,11 @@
 		BC3156A01A304E7A004C7F7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC31569F1A304E7A004C7F7F /* main.m */; };
 		BC3156A31A304E7A004C7F7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3156A21A304E7A004C7F7F /* AppDelegate.m */; };
 		BC3156A61A304E7A004C7F7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3156A51A304E7A004C7F7F /* ViewController.m */; };
-		BC3156A91A304E7A004C7F7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3156A71A304E7A004C7F7F /* Main.storyboard */; };
 		BC3156AB1A304E7A004C7F7F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC3156AA1A304E7A004C7F7F /* Images.xcassets */; };
 		BC3156AE1A304E7A004C7F7F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC3156AC1A304E7A004C7F7F /* LaunchScreen.xib */; };
 		BC3156BA1A304E7A004C7F7F /* MantleLearnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3156B91A304E7A004C7F7F /* MantleLearnTests.m */; };
+		BC3156C61A305A1F004C7F7F /* TestDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3156C51A305A1F004C7F7F /* TestDataModel.m */; };
+		C349A3C39C7741480CE76130 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D82800641CF07145620FE025 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4BC9EBA4EEE041D304F03197 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		79E3BA19F32DB8B97AA75654 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		BC31569A1A304E7A004C7F7F /* MantleLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MantleLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC31569E1A304E7A004C7F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC31569F1A304E7A004C7F7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -34,12 +37,14 @@
 		BC3156A21A304E7A004C7F7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BC3156A41A304E7A004C7F7F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BC3156A51A304E7A004C7F7F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BC3156A81A304E7A004C7F7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC3156AA1A304E7A004C7F7F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BC3156AD1A304E7A004C7F7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BC3156B31A304E7A004C7F7F /* MantleLearnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MantleLearnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3156B81A304E7A004C7F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC3156B91A304E7A004C7F7F /* MantleLearnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MantleLearnTests.m; sourceTree = "<group>"; };
+		BC3156C41A305A1F004C7F7F /* TestDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestDataModel.h; sourceTree = "<group>"; };
+		BC3156C51A305A1F004C7F7F /* TestDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDataModel.m; sourceTree = "<group>"; };
+		D82800641CF07145620FE025 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C349A3C39C7741480CE76130 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +66,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81BDD9396932086BA2A4BA77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D82800641CF07145620FE025 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BC3156911A304E79004C7F7F = {
 			isa = PBXGroup;
 			children = (
 				BC31569C1A304E7A004C7F7F /* MantleLearn */,
 				BC3156B61A304E7A004C7F7F /* MantleLearnTests */,
 				BC31569B1A304E7A004C7F7F /* Products */,
+				E095DF62CCA4266617BA68FB /* Pods */,
+				81BDD9396932086BA2A4BA77 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,11 +97,11 @@
 		BC31569C1A304E7A004C7F7F /* MantleLearn */ = {
 			isa = PBXGroup;
 			children = (
+				BC3156C31A3059EA004C7F7F /* Model */,
 				BC3156A11A304E7A004C7F7F /* AppDelegate.h */,
 				BC3156A21A304E7A004C7F7F /* AppDelegate.m */,
 				BC3156A41A304E7A004C7F7F /* ViewController.h */,
 				BC3156A51A304E7A004C7F7F /* ViewController.m */,
-				BC3156A71A304E7A004C7F7F /* Main.storyboard */,
 				BC3156AA1A304E7A004C7F7F /* Images.xcassets */,
 				BC3156AC1A304E7A004C7F7F /* LaunchScreen.xib */,
 				BC31569D1A304E7A004C7F7F /* Supporting Files */,
@@ -119,6 +135,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BC3156C31A3059EA004C7F7F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC3156C41A305A1F004C7F7F /* TestDataModel.h */,
+				BC3156C51A305A1F004C7F7F /* TestDataModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E095DF62CCA4266617BA68FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79E3BA19F32DB8B97AA75654 /* Pods.debug.xcconfig */,
+				4BC9EBA4EEE041D304F03197 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC3156BD1A304E7A004C7F7F /* Build configuration list for PBXNativeTarget "MantleLearn" */;
 			buildPhases = (
+				BDB133D4AFCA7166C7B97F4B /* Check Pods Manifest.lock */,
 				BC3156961A304E7A004C7F7F /* Sources */,
 				BC3156971A304E7A004C7F7F /* Frameworks */,
 				BC3156981A304E7A004C7F7F /* Resources */,
+				24E9DE4E1440783B02713C4D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,7 +235,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC3156A91A304E7A004C7F7F /* Main.storyboard in Resources */,
 				BC3156AE1A304E7A004C7F7F /* LaunchScreen.xib in Resources */,
 				BC3156AB1A304E7A004C7F7F /* Images.xcassets in Resources */,
 			);
@@ -214,12 +249,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24E9DE4E1440783B02713C4D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDB133D4AFCA7166C7B97F4B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BC3156961A304E7A004C7F7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BC3156A61A304E7A004C7F7F /* ViewController.m in Sources */,
+				BC3156C61A305A1F004C7F7F /* TestDataModel.m in Sources */,
 				BC3156A31A304E7A004C7F7F /* AppDelegate.m in Sources */,
 				BC3156A01A304E7A004C7F7F /* main.m in Sources */,
 			);
@@ -244,14 +313,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BC3156A71A304E7A004C7F7F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC3156A81A304E7A004C7F7F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BC3156AC1A304E7A004C7F7F /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -341,6 +402,7 @@
 		};
 		BC3156BE1A304E7A004C7F7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79E3BA19F32DB8B97AA75654 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MantleLearn/Info.plist;
@@ -351,6 +413,7 @@
 		};
 		BC3156BF1A304E7A004C7F7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BC9EBA4EEE041D304F03197 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MantleLearn/Info.plist;
@@ -412,6 +475,7 @@
 				BC3156BF1A304E7A004C7F7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC3156C01A304E7A004C7F7F /* Build configuration list for PBXNativeTarget "MantleLearnTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +484,7 @@
 				BC3156C21A304E7A004C7F7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
